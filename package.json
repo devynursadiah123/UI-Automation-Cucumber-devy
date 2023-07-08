@@ -1,0 +1,25 @@
+{
+  "name": "ui-automation-cucumber-devy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "devy nur sadiah",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.11.4",
+    "@wdio/cucumber-framework": "^8.11.3",
+    "@wdio/local-runner": "^8.11.3",
+    "@wdio/spec-reporter": "^8.11.2",
+    "chromedriver": "^114.0.2",
+    "resolve": "^1.22.2",
+    "ts-node": "^10.9.1",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

@@ -1,4 +1,5 @@
-import { Given, When, Then } from '@cucumber/cucumber';
+const { Given, When, Then } = require('@wdio/cucumber-framework')
+import SecurePage from '../pageobjects/secure.page';
 import LoginPage from '../pageobjects/loginPage';
 import DashboardPage from '../pageobjects/dashboardPage';
 
